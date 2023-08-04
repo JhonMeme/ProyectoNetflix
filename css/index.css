@@ -32,12 +32,12 @@ a{
     color: white;
 }
 /* Banner */
-.background--banner{
+.background--cabecera{
     height: 100vh;
     width: 100%;
     overflow: hidden;
 }
-.banner{
+.cabecera{
     display: flex;
     flex-direction: column;
     width: 100%;
