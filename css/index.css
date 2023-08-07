@@ -11,9 +11,7 @@
     height: 35px;
 }
 
-.derecha{
-    float: right;
-}
+
 
 video{
     width: 100%;
@@ -112,7 +110,9 @@ a{
 .navegacion--derecha li:nth-child(4)
 {
     width: 25px;
+
 }
+
 .usuario{
     width: 35px;
     height: 35px;
