@@ -11,9 +11,13 @@
     height: 35px;
 }
 
+.vidPopu{
+    width: 280px;
+    height: 300px;
+    margin-top: -5.5%;
+}
 
-
-video{
+.video{
     width: 100%;
     height: 100vh;
     object-fit: cover;
@@ -252,7 +256,7 @@ a{
 .peliculas{
     overflow-x: scroll;
     display: flex;
-    gap: 12px;
+    gap: 6px;
 }
 .peliculas::-webkit-scrollbar{
     width: 0;
