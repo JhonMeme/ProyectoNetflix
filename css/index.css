@@ -62,14 +62,10 @@ a{
 /* Menú general*/
 .menu{
     width: 95%;
-    margin-inline:auto;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     gap: 5px;
     font-size: 14px;
-    font-weight: 500;
-    position: fixed;
 }
 .navegacion{
     padding-top: 10px;
@@ -122,12 +118,18 @@ a{
     width: 25px;
 }
 
+.navegacion--derecha{
+    float: right;
+    margin-top: -4.4%;
+}
+
 .usuario{
     width: 35px;
     height: 35px;
     border-radius: 10px;
     overflow: hidden;
 }
+
 .navegacion--derecha li:nth-child(1),
 .navegacion--derecha li:nth-child(2),
 .navegacion--derecha li:nth-child(3),
