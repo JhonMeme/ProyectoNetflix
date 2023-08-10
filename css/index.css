@@ -11,14 +11,14 @@
     height: 35px;
 }
 
-.vidPopu{
+#vidPopu{
     width: 250px;
     height: 300px;
     margin-top: -5.5%;
     transition: 0.5s;
 }
 
-.vidPopu:hover{
+#vidPopu:hover{
     transform: scale(1.2);
     transition: 0.5s;
 }
