@@ -1,7 +1,7 @@
 const urls = [
-    'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=3105be1aedb18e8d02e7ad7a1b180bef',
-    'https://api.themoviedb.org/3/discover/movie?certification_country=US&certification.lte=G&sort_by=popularity.desc&api_key=3105be1aedb18e8d02e7ad7a1b180bef',
-    'https://api.themoviedb.org/3/discover/movie?with_genres=18&primary_release_year=2014&api_key=3105be1aedb18e8d02e7ad7a1b180bef'
+    'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=348fb5fef1fd54ee9b84edf247d00502',
+    'https://api.themoviedb.org/3/discover/movie?certification_country=US&certification.lte=G&sort_by=popularity.desc&api_key=348fb5fef1fd54ee9b84edf247d00502',
+    'https://api.themoviedb.org/3/discover/movie?with_genres=18&primary_release_year=2014&api_key=348fb5fef1fd54ee9b84edf247d00502'
 ];
 window.addEventListener('DOMContentLoaded',()=>{
     const peticiones = urls.map(peticion=>fetch(peticion));
